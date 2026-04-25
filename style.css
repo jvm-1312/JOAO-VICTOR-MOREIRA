@@ -1,0 +1,34 @@
+/*ESTILO DO SITE EM GERAL*/
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #dbdbdb;
+}
+/*ESTILO DO MENU*/
+nav {
+  background: #222;
+  padding: 15px;
+  text-align: center;
+}
+/*LINKS DO MENU*/
+nav a {
+   color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  display: inline-block;
+  border-radius: 5px;
+}
+/*ESTILO DO MENO QUANDO O MOUSE ESTA NELE*/
+nav a:hover {
+  background: white;
+  color: black;
+}
+/*ESTILO DAS SEÇOES*/
+section {
+  background: white;
+  margin: 30px auto;
+  padding: 40px;
+  width: 80%;
+  border-radius: 10px;
+}

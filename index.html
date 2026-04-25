@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRABALHO ADS</title>
+    <link rel="stylesheet" href="style.css"> <!-- CONEXAO CSS-->
+</head>
+<body>
+    <!--MENU -->
+<nav>
+  <a href="#sobre">Sobre mim</a>
+  <a href="#formacao">Formação</a>
+  <a href="#portfolio">Portfólio</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<section id="sobre">
+  <h1>Sobre mim</h1>
+  <p>Meu nome é João Victor Moreira, tenho 22 anos e curso ADS na uninter atualmente, meu principal hobby hoje em dia é musculação e sinceramente acredito que esse hobby vá virar algo relacionado a minha profissão um dia, gosto de jogar um CS quanto tempo e não fico um dia sem ouvir musica, e sou corinthiano.</p>
+</section>
+
+<section id="formacao">
+  <h1>Formação</h1>
+  <p>Atualmente curso ADS pela uninter somente.</p>
+  <p>Iniciei ingles online pela Blue English mas não conclui.</p>
+
+</section>
+
+<section id="portfolio">
+  <h1>Portfólio</h1>
+  <p>OBS:ainda não tenho nenhum projeto, como esse vai ser meu primeiro vou linkar ele mesmo</p>
+  <ul>
+    <li>Projeto 1</li>
+  </ul>
+</section>
+
+<section id="contato">
+  <h1>Contato</h1>
+  <p>Para qualquer dúvida, favor preencher abaixo.<p/>
+<!-- FORMULARIO-->
+<form onsubmit="enviarFormulario(event)">
+  <label>Nome:</label><br>
+  <input type="text" id="nome"><br><br>
+
+  <label>Email:</label><br>
+  <input type="text" id="email"><br><br>
+
+  <label>Mensagem:</label><br>
+  <textarea id="mensagem"></textarea><br><br>
+
+  <button type="submit">Enviar</button>
+</form>
+
+<p id="resposta"></p>
+
+</body>
+</html>
+<!-- CONEXAO JS -->
+<script src="script.js"></script>
